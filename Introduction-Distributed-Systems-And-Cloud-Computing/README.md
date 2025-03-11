@@ -71,3 +71,51 @@ Solution: Providers are improving virtualization and using technologies like fla
 Data Transfer Bottlenecks:
 Transferring large amounts of data to and from the cloud can be slow.
 Solution: Some companies physically send hard drives to the cloud provider (like FedEx-ing disks) to avoid slow internet transfers.
+
+#### Amazon EC2
+What it is: Amazon's Elastic Compute Cloud lets you rent virtual machines (VMs) to run your software.
+How it works: You create a machine image (AMI), upload it, and configure it using Amazon's web service.
+
+#### Utility computing - MS Azure
+How to use: Develop your web program locally, then upload it to Azure
+
+#### Spectrum of Abstractions 
+Abstraction Levels: Different levels of cloud services, from low-level (Amazon EC2) to high-level (Azure).
+
+#### Cloud Computing 
+Combination: Cloud computing combines SaaS and PaaS (utility computing).
+Analogy: Compares cloud computing to video on demand (SaaS) and electricity on demand (PaaS).
+
+####  Significance of Cloud Computing
+Benefits: Infinite resources, no upfront commitment, pay-as-you-go.
+
+#### Economics of the Cloud
+Cost Analysis: Discusses whether moving to the cloud saves money, considering factors like utilization and data transfer time
+
+#### Should I Move Into A Cloud?
+Cost Analysis: Repeats the cost comparison between cloud and datacenter.
+Other Factors: Re-implementing programs and moving data into the cloud.
+
+#### Adoption Challenges
+Challenges: Lists issues like availability, data lock-in, and security.
+Examples: Companies like Coghead and The Linkup faced problems when they shut down.
+Survey Results: IT professionals are concerned about security, performance, and vendor lock-in when using cloud services.
+
+#### Growth Challenges
+Challenges: Data transfer bottlenecks, performance unpredictability, and scalable storage.
+Solutions: Suggests improvements like better VM support and auto-scaling.
+
+#### Policy and Business Challenge
+Challenges: Reputation sharing and software licensing.
+Examples: Open-source software is easier to use in the cloud, while proprietary software like Windows is offered per hour on EC2.
+
+### Distributed Systems 
+
+#### Loss of Reliability
+Issues: Links can corrupt messages, routers can get overloaded.
+
+Solution: Retransmission protocols.
+
+
+
+

@@ -113,9 +113,14 @@ Examples: Open-source software is easier to use in the cloud, while proprietary 
 
 #### Loss of Reliability
 Issues: Links can corrupt messages, routers can get overloaded.
-
 Solution: Retransmission protocols.
 
+#### What about the Web?
+Web Servers: Don’t keep track of clients; use cookies and databases for user info.
 
+#### Web Servers and Transactions
+Web Servers: Forget interactions immediately after they happen.
+Transactions: Purchases are recorded in a database.
 
-
+#### What about the Cloud?
+Data Centers: Complex distributed systems with many servers, load balancing, and security policies.

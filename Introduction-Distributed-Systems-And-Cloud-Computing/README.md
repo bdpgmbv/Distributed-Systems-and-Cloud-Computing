@@ -43,3 +43,31 @@ Example: Microsoft Azure lets you build and deploy web applications without worr
 What it is: You use software applications provided by a vendor over the internet.
 Example: Google Apps (like Gmail and Google Docs) are SaaS applications.
 
+##### Why is Utility Computing Useful?
+Cost Savings: You don’t need to buy expensive hardware or pay for maintenance. You only pay for what you use.
+Scalability: You can easily scale up or down based on your needs. For example:
+If your website gets a sudden surge in traffic, you can quickly get more resources.
+If traffic drops, you can reduce resources and save money.
+
+Flexibility: You can choose the type of service (IaaS, PaaS, or SaaS) that fits your needs.
+
+No Upfront Commitment: You don’t need to make a big investment upfront. You pay as you go.
+
+##### Real-World Example: Animoto
+What Happened: Animoto, a video creation service, saw a huge surge in demand when it went viral on Facebook.
+How Utility Computing Helped: Animoto used Amazon EC2 to quickly scale from 50 servers to 3,500 servers in just 3 days to handle the traffic.
+Result: Animoto didn’t need to buy thousands of servers upfront. They just rented what they needed, and when the demand dropped, they scaled back down.
+
+##### Challenges of Utility Computing
+Over-Provisioning vs Under-Provisioning:
+Over-Provisioning: Buying too many resources and wasting money.
+Under-Provisioning: Not having enough resources, leading to poor performance.
+Utility Computing Solution: You can scale resources up or down as needed, avoiding both problems.
+
+Performance Unpredictability:
+Sometimes, the performance of cloud resources can vary.
+Solution: Providers are improving virtualization and using technologies like flash memory to make performance more consistent.
+
+Data Transfer Bottlenecks:
+Transferring large amounts of data to and from the cloud can be slow.
+Solution: Some companies physically send hard drives to the cloud provider (like FedEx-ing disks) to avoid slow internet transfers.

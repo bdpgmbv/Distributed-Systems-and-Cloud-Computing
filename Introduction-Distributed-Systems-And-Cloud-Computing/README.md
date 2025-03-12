@@ -191,15 +191,15 @@ Example: The envelope is handed to the postman (the internet), who delivers it t
 
 #### How It Works Together: A Real-Life Example
 Let’s say you’re working from home and need to access your company’s private network:
-Application Layer: You open a file on your company’s server.
-TCP: The file is split into packets, and TCP ensures they all arrive correctly.
-IP: Each packet gets an address so it knows where to go.
-PPP: The packets are wrapped in a secure format.
-L2TP: A secure tunnel is created between your computer and the company’s server.
-UDP: The packets are sent quickly through the tunnel.
-IPsec: The packets are encrypted so no one can read them.
-PPPoE: The encrypted packets are wrapped again for internet delivery.
-Ethernet: The packets are sent over the internet to the company’s server.
+* Application Layer: You open a file on your company’s server.
+* TCP: The file is split into packets, and TCP ensures they all arrive correctly.
+* IP: Each packet gets an address so it knows where to go.
+* PPP: The packets are wrapped in a secure format.
+* L2TP: A secure tunnel is created between your computer and the company’s server.
+* UDP: The packets are sent quickly through the tunnel.
+* IPsec: The packets are encrypted so no one can read them.
+* PPPoE: The encrypted packets are wrapped again for internet delivery.
+* Ethernet: The packets are sent over the internet to the company’s server.
 
 #### Why This Matters
 Security: Your data is encrypted and hidden from hackers.

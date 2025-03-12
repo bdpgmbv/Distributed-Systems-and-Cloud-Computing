@@ -124,3 +124,7 @@ Transactions: Purchases are recorded in a database.
 
 #### What about the Cloud?
 Data Centers: Complex distributed systems with many servers, load balancing, and security policies.
+
+#### Networks 
+#### Classic view of network API
+Steps: Get host name, IP address, create socket, and send data.

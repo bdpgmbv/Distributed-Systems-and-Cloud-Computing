@@ -202,6 +202,6 @@ Let’s say you’re working from home and need to access your company’s priva
 * Ethernet: The packets are sent over the internet to the company’s server.
 
 #### Why This Matters
-Security: Your data is encrypted and hidden from hackers.
-Privacy: No one can see what you’re sending or receiving.
-Access: You can securely access private networks, like your office, from anywhere.
+1. Security: Your data is encrypted and hidden from hackers.
+2. Privacy: No one can see what you’re sending or receiving.
+3. Access: You can securely access private networks, like your office, from anywhere.

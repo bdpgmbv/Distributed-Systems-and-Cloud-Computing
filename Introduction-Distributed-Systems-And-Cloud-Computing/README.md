@@ -217,60 +217,44 @@ The network in the middle (routers, links, etc.) should focus on speed and effic
 #### Example to Understand It Better
 Imagine you’re sending a letter to a friend:
 
-End-to-End Approach: You write the letter, put it in an envelope, and your friend opens it and reads it. If something goes wrong (like the letter gets lost or damaged), you and your friend handle the problem (e.g., you send the letter again).
-
+#### End-to-End Approach: 
+You write the letter, put it in an envelope, and your friend opens it and reads it. If something goes wrong (like the letter gets lost or damaged), you and your friend handle the problem (e.g., you send the letter again).
 Network Approach: The post office (the network) tries to fix every possible problem along the way (e.g., if the envelope tears, they repair it). But this slows things down and adds complexity.
-
 The End-to-End Argument says it’s better to let the endpoints (you and your friend) handle problems, while the network (post office) focuses on delivering the letter as fast as possible.
 
-How Does This Apply to the Internet?
+#### How Does This Apply to the Internet?
 In the internet:
-
 Endpoints: Your computer (sender) and the server (receiver).
-
 Network: Routers, cables, and other devices that pass data between your computer and the server.
 
-The End-to-End Argument says:
-
+#### The End-to-End Argument says:
 The network should focus on delivering packets as quickly as possible.
-
 The endpoints should handle reliability, security, and error-checking.
 
-Why is This Important?
+#### Why is This Important?
 Efficiency: If the network tries to handle everything (like fixing errors or ensuring security), it becomes slow and complicated.
-
 Flexibility: Endpoints can decide how to handle problems based on their needs. For example:
-
 If you’re sending a file, you might want to check for errors and retransmit if something goes wrong.
-
 If you’re streaming a video, you might just skip a corrupted packet to keep the video playing smoothly.
-
 Simplicity: The network doesn’t need to know about every application’s needs. It just delivers packets.
 
-Example: File Transfer
+#### Example: File Transfer
 End-to-End Approach: When you send a file, your computer breaks it into packets and sends them. The server checks if all packets arrived correctly. If some are missing, the server asks your computer to resend them.
-
 Network Approach: Every router along the way checks for errors and tries to fix them. This slows down the transfer and adds unnecessary complexity.
-
 The End-to-End Argument says the first approach is better.
 
-When Should the Network Do More?
+#### When Should the Network Do More?
 Sometimes, the network should handle certain tasks:
-
 Performance Gains: For example, on a slow or unreliable link (like Wi-Fi), the network might retransmit lost packets to improve speed.
-
 Security: In some cases, the network might encrypt data to protect it from hackers.
-
 Special Cases: Tasks like routing (deciding the best path for data) or billing (charging users for data usage) must be done by the network.
 
-Key Takeaways
+#### Key Takeaways
 Endpoints Handle the Hard Stuff: Reliability, security, and error-checking should be done by the sender and receiver.
-
 Network Focuses on Speed: The network should deliver data as fast as possible without worrying about fixing errors.
-
 Flexibility and Simplicity: This approach makes the system simpler and more adaptable to different needs.
 
-Real-World Example: Email
+#### Real-World Example: Email
 End-to-End Approach: When you send an email, your email client (like Gmail) ensures the email is delivered correctly. If the email doesn’t reach the recipient, your email client will retry or notify you.
 
 Network Approach: If the network tried to ensure every email was delivered, it would slow down all internet traffic and make the system overly complex.
